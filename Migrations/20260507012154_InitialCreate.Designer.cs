@@ -41,7 +41,7 @@ namespace ViziLogin.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nome")
+                    b.Property<string>("Profissional")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -53,7 +53,7 @@ namespace ViziLogin.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Titulo")
+                    b.Property<string>("NomeServico")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 

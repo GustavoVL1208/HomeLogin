@@ -3,12 +3,12 @@
     public class Servico
     {
         public int Id { get; set; }
-        public string Titulo { get; set; }
-        public string Nome { get; set; }
-        public string TipoServico { get; set; } 
-        public string Contato { get; set; }
-        public string Preco { get; set; }
-        public string Descricao { get; set; }
+        public string NomeServico { get; set; } = string.Empty;
+        public string Profissional { get; set; } = string.Empty;
+        public string TipoServico { get; set; } = string.Empty;
+        public string Contato { get; set; } = string.Empty;
+        public string Preco { get; set; } = string.Empty;
+        public string Descricao { get; set; } = string.Empty;
 
     }
 }

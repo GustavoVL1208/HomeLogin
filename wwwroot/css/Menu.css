@@ -126,6 +126,30 @@
     }
 
 
+.btn-novo-servico {
+    background-color: #4361EE;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+    .btn-novo-servico:hover {
+        background-color: #4361EE;
+        color: #ffffff;
+    }
+
+
+
 .filter-buttons-container {
     display: flex;
     gap: 12px;

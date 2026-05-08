@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Login e Home\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home\\wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:wwwroot\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Menu.css",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home\\wwwroot\\css\\Menu.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\Menu.css",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home\\wwwroot\\css\\Menu.css",
+              "RelativeToolTip": "wwwroot\\css\\Menu.css",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAAAJIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-08T21:33:48.411Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-08T21:14:56.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

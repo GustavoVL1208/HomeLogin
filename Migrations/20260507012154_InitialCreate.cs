@@ -16,8 +16,8 @@ namespace ViziLogin.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Titulo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Nome = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    NomeServico = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Profissional = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TipoServico = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Contato = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Preco = table.Column<string>(type: "nvarchar(max)", nullable: false),

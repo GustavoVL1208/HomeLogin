@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Views",
+    "\\Views\\Home",
+    "\\wwwroot\\lib\\bootstrap",
+    "\\wwwroot\\lib\\bootstrap\\dist",
+    "\\wwwroot\\lib\\bootstrap\\dist\\js"
+  ],
+  "SelectedNode": "\\Views\\Home\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}
