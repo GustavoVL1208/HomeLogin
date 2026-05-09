@@ -117,7 +117,7 @@
     padding: 24px;
     width: 100%;
     max-width: 800px;
-    min-height: 400px;
+    min-height: 300px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 
@@ -237,6 +237,68 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+}
+
+.lista-avaliacoes-scroll {
+    max-height: 500px; /* Ajuste esta altura para caber exatamente 5 cards */
+    overflow-y: auto; /* Ativa o scroll vertical */
+    padding-right: 10px;
+}
+
+/* Estilização do card individual (baseado na sua foto) */
+.card-item-avaliacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.info-avaliador strong {
+    display: block;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.data-postagem {
+    display: block;
+    font-size: 0.85rem;
+    color: #888;
+    margin-bottom: 8px;
+}
+
+.texto-comentario {
+    margin: 0;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.nota-decimal {
+    color: #000000; /* Cor preta para o texto e estrela */
+    font-weight: bold;
+    font-size: 16px;
+    background: none; /* Remove o fundo cinza */
+    border: none; /* Remove a borda amarela */
+    padding: 0; /* Remove espaçamentos internos */
+}
+
+    /* Se houver algum span interno com estilos específicos, garanta que ele herde o preto */
+    .nota-decimal span {
+        color: black;
+    }
+
+/* Personalização da barra de rolagem (opcional) */
+.lista-avaliacoes-scroll::-webkit-scrollbar {
+    width: 6px;
+}
+
+.lista-avaliacoes-scroll::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 10px;
 }
 
 

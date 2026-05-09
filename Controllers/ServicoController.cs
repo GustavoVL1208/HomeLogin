@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using ViziLogin.Data;
 using ViziLogin.Models;
+using System.Linq;
 
 namespace ViziLogin.Controllers
 {
@@ -27,6 +28,23 @@ namespace ViziLogin.Controllers
         {
             var servico = await _context.Servicos.FirstOrDefaultAsync(s => s.Id == id);
             if (servico == null) return NotFound();
+
+            // 1. Busca as avaliações filtradas
+            var avaliacoes = await _context.Avaliacao
+                .Where(a => a.ServicoId == id)
+                .OrderByDescending(a => a.DataAvaliacao)
+                .ToListAsync();
+
+            // --- NOVO BLOCO DE CÁLCULO ---
+            int quantidade = avaliacoes.Count;
+            // Calcula a média se houver avaliações, caso contrário define como 0
+            double media = quantidade > 0 ? avaliacoes.Average(a => Convert.ToDouble(a.Nota)) : 0.0;
+
+            // Passamos a lista, a média e o total para a ViewBag
+            ViewBag.ListaAvaliacoes = avaliacoes;
+            ViewBag.MediaNotas = media;
+            ViewBag.TotalAvaliacoes = quantidade;
+            // ----------------------------
 
             // Busca o usuário logado para saber o NOME dele
             var emailLogado = User.Identity.Name;

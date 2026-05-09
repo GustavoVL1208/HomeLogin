@@ -46,7 +46,9 @@
                     </div>
                     <div class="preco-grupo">
                         <span class="valor-servico">@Model.Preco</span>
-                        <p class="rating-placeholder">⭐ 0.0 (0 avaliações)</p>
+                        <p class="rating-placeholder">
+                            ⭐ @ViewBag.MediaNotas.ToString("F1") (@ViewBag.TotalAvaliacoes avaliações)
+                        </p>
                     </div>
                 </div>
 
@@ -89,9 +91,31 @@
             <div class="conteudo-detalhe">
                 <div class="header-avaliacoes">
                     <h3>Avaliações</h3>
-                    <button class="btn-avaliar">Avaliar</button>
+                    <button type="button" class="btn-avaliar" onclick="abrirModalAvaliar()">Avaliar</button>
                 </div>
-                <p>Nenhuma avaliação disponível para este serviço ainda.</p>
+
+                <div class="lista-avaliacoes-scroll">
+                    @if (ViewBag.ListaAvaliacoes != null && ((List<ViziLogin.Models.Avaliacao>)ViewBag.ListaAvaliacoes).Any())
+                    {
+                        foreach (var item in (List<ViziLogin.Models.Avaliacao>)ViewBag.ListaAvaliacoes)
+                        {
+                            <div class="card-item-avaliacao">
+                                <div class="info-avaliador">
+                                    <strong>@item.NomeAvaliador</strong>
+                                    <span class="data-postagem">@item.DataAvaliacao.ToString("dd/MM/yyyy")</span>
+                                    <p class="texto-comentario">@item.Comentario</p>
+                                </div>
+                                <div class="nota-decimal">
+                                    <span>⭐ @item.Nota.ToString("F1")</span>
+                                </div>
+                            </div>
+                        }
+                    }
+                    else
+                    {
+                        <p>Nenhuma avaliação disponível para este serviço ainda.</p>
+                    }
+                </div>
             </div>
         </div>
     </main>
@@ -141,6 +165,37 @@
         </div>
     </div>
 
+    <div id="modalAvaliar" class="modal-overlay">
+        <div class="modal-content">
+            <h3>Avaliar: @Model.NomeServico</h3>
+            <hr>
+            <form asp-controller="Avaliacao" asp-action="Create" method="post">
+
+                <input type="hidden" name="ServicoId" value="@Model.Id" />
+
+                <div class="campo-modal">
+                    <label>Nome do Avaliador</label>
+                    <input type="text" name="NomeAvaliador" class="input-modal" value="@ViewBag.NomeUsuarioLogado" readonly />
+                </div>
+
+                <div class="campo-modal">
+                    <label>Nota (1 a 5)</label>
+                    <input type="number" name="Nota" class="input-modal" min="1" max="5" step="0.5" required />
+                </div>
+
+                <div class="campo-modal">
+                    <label>Comentário</label>
+                    <textarea name="Comentario" class="input-modal" rows="3" required></textarea>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="submit" class="btn-confirmar">Enviar Avaliação</button>
+                    <button type="button" class="btn-cancelar" onclick="fecharModalAvaliar()">Cancelar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <!-- 2. SCRIPT COLOCADO AQUI -->
     <script>
         function abrirModal() {
@@ -151,12 +206,25 @@
             document.getElementById('modalEditar').style.display = 'none';
         }
 
-        window.onclick = function(event) {
-            let modal = document.getElementById('modalEditar');
-            if (event.target == modal) {
-                fecharModal();
-            }
+            // Funções para o Modal de Avaliar
+        function abrirModalAvaliar() {
+            document.getElementById('modalAvaliar').style.display = 'flex';
         }
+        function fecharModalAvaliar() {
+            document.getElementById('modalAvaliar').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+                let modalEditar = document.getElementById('modalEditar');
+                let modalAvaliar = document.getElementById('modalAvaliar');
+
+                if (event.target == modalEditar) {
+                    fecharModal();
+                }
+                if (event.target == modalAvaliar) {
+                    fecharModalAvaliar();
+                }
+            }
     </script>
 
 </body>
