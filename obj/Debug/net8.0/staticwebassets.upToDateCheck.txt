@@ -1,6 +1,7 @@
 wwwroot\css\Login.css
+wwwroot\css\Menu.css
 wwwroot\css\NovoServico.css
-wwwroot\css\site.css
+wwwroot\css\ServicoDetalhado.css
 wwwroot\favicon.ico
 wwwroot\img\Background.jpeg
 wwwroot\img\Logo.jpeg
@@ -65,4 +66,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\Menu.css

@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ViziLogin.Data;
 
@@ -11,9 +12,11 @@ using ViziLogin.Data;
 namespace ViziLogin.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260509005925_RelacionarUsuarioServico")]
+    partial class RelacionarUsuarioServico
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -38,6 +41,9 @@ namespace ViziLogin.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("IdUsuario")
+                        .HasColumnType("int");
+
                     b.Property<string>("NomeServico")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -55,6 +61,8 @@ namespace ViziLogin.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("IdUsuario");
 
                     b.ToTable("Servicos");
                 });
@@ -86,6 +94,17 @@ namespace ViziLogin.Migrations
                     b.HasKey("IdUsuario");
 
                     b.ToTable("Usuario");
+                });
+
+            modelBuilder.Entity("ViziLogin.Models.Servico", b =>
+                {
+                    b.HasOne("ViziLogin.Models.Usuario", "Usuario")
+                        .WithMany()
+                        .HasForeignKey("IdUsuario")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Usuario");
                 });
 #pragma warning restore 612, 618
         }

@@ -71,7 +71,13 @@
             <div class="card-servico">
                 <div class="card-header-image"></div>
                 <div class="card-content">
-                    <h3 class="Titulo">@item.NomeServico</h3>
+                        <h3 class="Titulo">
+                            <a asp-controller="Servico"
+                               asp-action="ServicoDetalhado"
+                               asp-route-id="@item.Id">
+                                @item.NomeServico
+                            </a>
+                        </h3>
                     <span class="Nome">@item.Profissional</span>
                     <p class="TipoServico">@item.TipoServico</p>
 

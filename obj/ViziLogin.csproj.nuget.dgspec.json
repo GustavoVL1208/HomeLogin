@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\Login e Home\\ViziLogin.csproj": {}
+    "C:\\Users\\User\\Desktop\\Login e Home e Criar Serviço\\ViziLogin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\Login e Home\\ViziLogin.csproj": {
+    "C:\\Users\\User\\Desktop\\Login e Home e Criar Serviço\\ViziLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\Login e Home\\ViziLogin.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Login e Home e Criar Serviço\\ViziLogin.csproj",
         "projectName": "ViziLogin",
-        "projectPath": "C:\\Users\\User\\Desktop\\Login e Home\\ViziLogin.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Login e Home e Criar Serviço\\ViziLogin.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\Login e Home\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Login e Home e Criar Serviço\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

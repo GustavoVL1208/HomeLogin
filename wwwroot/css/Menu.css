@@ -234,6 +234,18 @@
     color: #1a1a1a;
 }
 
+    .Titulo a {
+        text-decoration: none; /* Remove o sublinhado */
+        color: #333; /* Define uma cor de texto normal (grafite escuro) */
+        display: block; /* Faz com que o link ocupe o espaço do H3 */
+    }
+
+        /* Garante que ao passar o mouse ele não mude para azul ou sublinhe */
+        .Titulo a:hover {
+            text-decoration: none;
+            color: #000; /* Pode deixar um pouco mais escuro no hover se desejar */
+        }
+
 .Nome {
     display: block; 
     width: 100%;

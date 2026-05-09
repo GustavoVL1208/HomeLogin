@@ -113,14 +113,12 @@
                 </div>
 
                 <div class="campo">
-
-                    <label>
-                        Profissional
-                    </label>
-
+                    <label>Profissional</label>
                     <input asp-for="Profissional"
-                           placeholder="Ex: Carlos Santos" />
-
+                           class="form-control"
+                           value="@ViewBag.NomeProfissional"
+                           readonly
+                           style="background-color: #e9ecef; cursor: not-allowed;" />
                 </div>
 
                 <div class="campo">
