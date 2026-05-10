@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\wwwroot\\css\\servicodetalhado.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:wwwroot\\css\\servicodetalhado.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\views\\servico\\servicodetalhado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:views\\servico\\servicodetalhado.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:controllers\\servicocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|c:\\users\\user\\desktop\\login e home e criar servi\u00E7o\\views\\cadastro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FDAD73B8-E745-FB12-9D09-90A2CBFA974C}|ViziLogin.csproj|solutionrelative:views\\cadastro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,8 +25,8 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 207,
-          "SelectedChildIndex": 3,
+          "DockedWidth": 165,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,41 +34,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServicoController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Controllers\\ServicoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ServicoController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Controllers\\ServicoController.cs",
-              "RelativeToolTip": "Controllers\\ServicoController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAwwCgAAABkAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCcAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-09T15:35:26.795Z",
+              "WhenOpened": "2026-05-10T20:14:48.717Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Views\\Cadastro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Cadastro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Views\\Cadastro\\Index.cshtml",
+              "RelativeToolTip": "Views\\Cadastro\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAC8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-10T18:52:31.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ServicoDetalhado.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Views\\Servico\\ServicoDetalhado.cshtml",
-              "RelativeDocumentMoniker": "Views\\Servico\\ServicoDetalhado.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Views\\Servico\\ServicoDetalhado.cshtml",
-              "RelativeToolTip": "Views\\Servico\\ServicoDetalhado.cshtml",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAAAG0AAAAmAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-09T15:32:06.991Z",
+              "WhenOpened": "2026-05-10T20:07:41.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ServicoDetalhado.css",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\wwwroot\\css\\ServicoDetalhado.css",
-              "RelativeDocumentMoniker": "wwwroot\\css\\ServicoDetalhado.css",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\wwwroot\\css\\ServicoDetalhado.css",
-              "RelativeToolTip": "wwwroot\\css\\ServicoDetalhado.css",
-              "ViewState": "AgIAAO8AAAAAAAAAAAAmwCMBAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-09T15:40:02.353Z",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Login e Home e Criar Servi\u00E7o\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAEEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-10T20:09:36.753Z",
               "EditorCaption": ""
             }
           ]

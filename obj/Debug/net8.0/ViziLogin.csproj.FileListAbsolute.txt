@@ -551,10 +551,10 @@ C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\staticwebas
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\ViziLogin.csproj.Up2Date
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\ViziLogin.dll
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\refint\ViziLogin.dll
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\ViziLogin.pdb
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\ViziLogin.genruntimeconfig.cache
 C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\ref\ViziLogin.dll
+C:\Users\User\Desktop\Login e Home e Criar Serviço\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

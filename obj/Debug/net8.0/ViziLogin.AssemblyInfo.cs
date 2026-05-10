@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ViziLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a09bea35c79679331f185386ee3949ca59510b5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f503da83fa343f4e117b033d5400dfc2e91d2c75")]
 [assembly: System.Reflection.AssemblyProductAttribute("ViziLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ViziLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

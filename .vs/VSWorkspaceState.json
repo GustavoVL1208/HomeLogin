@@ -3,11 +3,7 @@
     "",
     "\\Controllers",
     "\\Views",
-    "\\Views\\Home",
-    "\\wwwroot\\lib\\bootstrap",
-    "\\wwwroot\\lib\\bootstrap\\dist",
-    "\\wwwroot\\lib\\bootstrap\\dist\\js"
+    "\\Views\\Home"
   ],
-  "SelectedNode": "\\Views\\Home\\Index.cshtml",
   "PreviewInSolutionExplorer": false
 }

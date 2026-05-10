@@ -5,7 +5,7 @@ using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using System.Threading.Tasks;
-using System.Collections.Generic; // Necessário para o List<Claim>
+using System.Collections.Generic;
 
 namespace ViziLogin.Controllers
 {
@@ -26,7 +26,6 @@ namespace ViziLogin.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(string email, string senha)
         {
-            // O código precisa estar AQUI DENTRO
             var user = _context.Usuarios
                 .FirstOrDefault(x => x.Email == email && x.Senha == senha);
 
@@ -36,7 +35,6 @@ namespace ViziLogin.Controllers
                 return View();
             }
 
-            // Agora o 'var' e o 'await' vão funcionar porque estão dentro de um método async
             var claims = new List<Claim>
             {
                 new Claim(ClaimTypes.Name, user.Email),
@@ -53,6 +51,16 @@ namespace ViziLogin.Controllers
             TempData["Success"] = "Transação OK, você está logado";
 
             return RedirectToAction("Index", "Home");
+        }
+
+        // --- ADICIONE ESTE MÉTODO AQUI ---
+        public async Task<IActionResult> Sair()
+        {
+            // Limpa o cookie de autenticação do navegador
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+
+            // Redireciona para a tela de login
+            return RedirectToAction("Index", "Login");
         }
     }
 }

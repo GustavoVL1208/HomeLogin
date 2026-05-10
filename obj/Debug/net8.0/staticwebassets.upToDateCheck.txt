@@ -1,3 +1,4 @@
+wwwroot\css\Cadastro.css
 wwwroot\css\Login.css
 wwwroot\css\Menu.css
 wwwroot\css\NovoServico.css
